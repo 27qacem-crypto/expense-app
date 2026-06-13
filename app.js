@@ -34,7 +34,7 @@
     if (f.el === employeeSelect && !f.el.value) ok = false;
     else if (f.el === expenseTypeSelect && !f.el.value) ok = false;
     else if (f.el === amountInput && (!f.el.value || parseFloat(f.el.value) <= 0)) ok = false;
-    else if (f.el === receiptInput && !f.el.files.length) ok = false;
+    else if (f.el === receiptInput) ok = true;
     f.group.classList.toggle('error', !ok);
     return ok;
   }
