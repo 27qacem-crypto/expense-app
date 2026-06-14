@@ -75,7 +75,8 @@
     spinner.classList.toggle('hidden', !v);
   }
 
-  form.addEventListener('submit', async function (e) {
+  form.addEventListener('submit', async function (e) 
+                 console.log("الزرار اشتغل!");       {
     e.preventDefault();
     if (!validateAll()) return;
 
