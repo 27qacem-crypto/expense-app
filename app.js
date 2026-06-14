@@ -1,7 +1,7 @@
 ﻿(function () {
   'use strict';
 
-  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxlNfQxB4svOM2_jH0ruktKffVBVUhETzwKTjzcSHEBH3FsxJQwCnwelWd02Td1JgTqXg/exec';
+  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz80TUDVrL2Ryx_P9EfVL_ZPU8r7lRK0gdw8yCPWzgApivXFrZaOgST0DnVH6x59N3g8g/exec';
   const FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfiuy_hjZHpYYZ6qT2JrTBQt3gJdtM6Zdn1vgRrhUS1Fc1W4g/viewform';
 
   const $ = function (id) { return document.getElementById(id); };
