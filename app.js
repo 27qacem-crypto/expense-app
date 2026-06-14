@@ -1,7 +1,8 @@
 ﻿(function () {
   'use strict';
 
-  const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwm4GUobbZwEuwE3oOPMnFX5d2V58TLTmMgUz40CDRR1uzz_aPYdRqc08JfDaB3dmMx/exec';
+  const base_url = "https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbwm4GUobbZwEuwE3oOPMnFX5d2V58TLTmMgUz40CDRR1uzz_aPYdRqc08JfDaB3dmMx/exec/exec"; // حط هنا رابطك الجديد
+const url = base_url + "?nocache=" + new Date().getTime();
   const FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfiuy_hjZHpYYZ6qT2JrTBQt3gJdtM6Zdn1vgRrhUS1Fc1W4g/viewform';
 
   const $ = function (id) { return document.getElementById(id); };
